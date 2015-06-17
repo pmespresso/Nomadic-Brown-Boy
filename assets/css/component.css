@@ -122,12 +122,16 @@ html, body, .perspective {
 	bottom: 25%;
 }
 
+.outer-nav.active {
+	background: #fff;
+}
+
 .outer-nav a {
 	display: inline-block;
 	white-space: nowrap;
 	font-weight: 300;
 	margin: 0 0 30px 0;
-	color: #fff;
+	color: orange;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
 	-webkit-transform-style: preserve-3d;
@@ -461,15 +465,15 @@ html, body, .perspective {
 
 .effect-rotatetop .outer-nav a {
 	opacity: 0;
-	color: #ed8151;
+	color: #E86100;
 	-webkit-transform: translateY(200px) translateZ(-1000px);
 	transform: translateY(200px) translateZ(-1000px);
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
 	transition: transform 0.4s, opacity 0.4s;
 }
 
-.effect-rotatetop .outer-nav a:hover {
-	color: #777;
+.effect-rotatetop .outer-nav .active{
+	text-decoration: underline;
 }
 
 .effect-rotatetop.animate .outer-nav a {
@@ -527,6 +531,10 @@ html, body, .perspective {
 
 .no-csstransforms3d .effect-laydown.animate .container {
 	top: 75%;
+}
+
+.effect-laydown .outer-nav a:hover {
+	background: #fff;
 }
 
 .effect-laydown .outer-nav a {

@@ -4,10 +4,18 @@ Sexy Text:
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 
+
+Shades of Orange
+
+Darkest
+	Spanish Orange: #E86100;
+	Dark Orange: #FF8C00;
+	Chrome Yellow: #FFA700;
+	Golden Poppy: #FCC200;
+Lightest
 */
 
 /* ==== GLOBAL ==== */
-
 h1, h2, h3, h4, h5, h6 {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
@@ -24,11 +32,6 @@ h1, h2 {
 
 h3 {
 	margin: 20px 0;
-}
-
-#heading {
-	text-decoration: underline;
-	font-size: 28px;
 }
 
 h4 {
@@ -89,6 +92,14 @@ footer nav ul li a:hover{
 	color: white;
 }
 
+.btn-warning {
+	background: #FFA700 !important;
+}
+
+.btn-warning:hover {
+	background: #FF8C00 !important;
+}
+
 /* ====== LAYOUT ===== */
 
 section {
@@ -107,130 +118,21 @@ section h3 {
 /* ====== TRAVEL SECTION ===== */
 
 #travel {
-
-/*	background: white;*/
 	text-align: center;
 }
 
-
-#travel img{
-	background: #ffffff url('../img/pangea.jpg') no-repeat right center;
-	width: 480px;
-	height: 480px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
+#travel h3 {
+	font-weight: normal;
 }
 
-/* ====== BLOG SECTION ======== */
-
-#blog {
-	color: black;
-	text-align: center;
-	padding: 0 0 50px;
-}
-
-#blog .row .col-sm-4 {
-	text-align: center;
-}
-
-#blog img {
-	margin: 40px 0;
-	height: 200px;
-	width: 200px;
-	-webkit-border-radius: 7%;
-	-moz-border-radius: 7%;
-	border-radius: 7%;
-}
-
-/* ====== OPTIN SECTION ===== */
-
-#optin {
-	background: #3e4249;
-	padding: 20px 0;
-	color: white;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizelegibility;
-	font-size: 1.2em;
-}
-
-#optin p {
-	margin: 7px 0 0 0;
-}
-
-#optin button {
-	padding: 10px 0;
-	margin: 10px 0;
-}
-
-/* ====== CHALLENGE SECTION ======== */
-
-#challenge {
-	text-align: center;
-}
-
-#challenge p {
-	margin: 20px 0 15px 0;
-	padding: 20px 0 15px 0;
-	font-size: 20px;
+#travel h3 i.fa {
+	margin: 0 5px;
+	padding: 0 5px;
 }
 
 
-/* MEDIA QUERIES ==========*/
+/* ====== BLOG SECTION ===== */
 
-@media screen and (max-width: 991px) {
-	#travel img{
-		height: 50%;
-		width: 50%;
-	}
-
-}
-
-@media and screen (max-width: 661px) {
-	#header {
-		background: url('washington.jpg') no-repeat fixed;
-	}
-
-	#travel img {
-		height: 50%;
-		width: 50%;
-	}
-
-	footer p a img {
-		position: absolute;
-		bottom: -50px;
-	}
-}
-
-
-@media screen and (max-width: 568px) {
-	#travel img {
-		height: 70%;
-		width: 70%
-	}
-
-	#blog img {
-		padding: 5px;
-		margin: 8px;
-	}
-
-	footer p, 
-	footer p a, 
-	footer nav ul li{
-		font-size: 12px;
-		padding: 3px 0;
-		margin: 3px 0;
-		text-align: center;
-	}
-
-	footer li.signup-link a{
-		font-size: 16px;
-	}
-
-	footer .col-sm-6 {
-		text-align: center;
-	}
-}
 
 
 

@@ -32,6 +32,7 @@ a:hover, a:focus {
 	outline: none;
 }
 
+
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before,
 .clearfix:after {
@@ -148,12 +149,13 @@ a:hover, a:focus {
 
 .codrops-demos {
 	display: table;
-
+	margin: 10px;
+	padding: 20px;
 }
 
 .codrops-demos a{
 	border: none;
-	padding: 0.6em 1.2em;
+	padding: 0;
 	background: #a9a9a9;
 	color: #fff;
 	font-family: 'Lato', Calibri, Arial, sans-serif;

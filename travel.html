@@ -26,6 +26,9 @@
 			<link rel="stylesheet" type="text/css" href="assets/css/nav.css" />
 			<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
 
+			<!-- Scroll Timeline CSS -->
+			<link rel="stylesheet" type="text/css" href="assets/css/scroll-timeline.css">
+			
 			<script src="assets/js/modernizr.custom.25376.js"></script>
 
 			<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -41,45 +44,39 @@
 				<div class="wrapper"><!-- wrapper needed for scroll -->
 					<!-- Top Navigation -->
 					<div class="codrops-top clearfix">
-						<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/ProgressButtonStyles/"><span>Previous Page</span></a>
-						<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=17915"><span>Check out the Blog</span></a></span>
+						<a class="codrops-icon codrops-icon-prev" href="index.html"><span>Home Page</span></a>
+						<span class="right"><a class="codrops-icon codrops-icon-next" href="blog.html"><span>Blog Page</span></a></span>
+						<button class='btn btn-md btn-warning center-block' id="showMenu"><strong>Take me somewhere else</strong></button>
+					</div>
 					</div>
 					<header class="codrops-header">
-						<h1>Welcome <span>Nomadic Brown Boy is thrilled by your presence</span></h1>	
+						<h1>The Travel Page<span>Bask in the pictures of my travels that no one cares about until I put a filter and a d33p caption on it</span></h1>	
 					</header>
-					<div class="main clearfix">
-						<div class="column">
-							
-							<p class='lead' style='margin-top: 10px'>Click on this button to see all the relevant social media and also the other pages. <hr>
-							<p><button class='btn btn-lg btn-danger' id="showMenu">Leggo!</button></p>
-							<p><small>Seriously, do it. It's pretty cool.</small></p>
-						</div>
-						<div class="column">
-							<nav class="codrops-demos">
-								<a href="http://www.github.com" id='github'><i class='fa fa-github'></i></a>
-								<a href="http://www.linkedin.com" id='linkedin'><i class='fa fa-linkedin'></i></a>
-								<a href="http://www.instagram.com" id='instagram'><i class='fa fa-instagram'></i></a>
-								<a href="http://www.twitter.com" id='twitter'><i class='fa fa-twitter'></i></a>	
-							</nav>
-
-							<div class="row">
-								<p class="lead">This site is dedicated to showcasing three things: </p>
-								<ul class="list-unstyled list-inline">
-									<li>1. Whenever I get to <a href='#'>travel</a>, boom, I'll put shit up here so the memories don't get lost</li>
-									<li>2. Sometimes I have<a href="#"> something interesting to say.</a> I'll put that here too </li>
-									<li>3. I often have things I want to <a href='#'>learn/do.</a> I want to document it so I don't forget how much effort it reallly takes to master something. </li>
-								</ul>
-							</div><!-- row-->
-						</div>
-
+					<div class="main clearfix" id='travel'>
 						
+						<div class="col-sm-4">
+							<h3> <i class='fa fa-instagram'></i>Instagram Feed </h3>
+							<!-- SnapWidget -->
+								<script src="http://snapwidget.com/js/snapwidget.js"></script>
+								<iframe src="http://snapwidget.com/bd/?u=bm9tYWRpY2Jyb3duYm95fGlufDIwMHwxfDV8fHllc3wyMHxmYWRlT3V0fG9uU3RhcnR8eWVzfHllcw==&ve=170615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="yes" style="border:none; overflow:hidden; width:100%;"></iframe>
+						</div><!--column-->
+
+						<div class="col-sm-4">
+							<h3> <i class='fa fa-dropbox'></i>Dropbox Feed </h3>
+
+						</div><!--column-->
+
+						<div class="col-sm-4">
+							<h3> <i class='fa fa-heart'></i>Tinder me Pics </h3>
+
+						</div><!--column-->
 					</div><!-- /main -->
 				</div><!-- wrapper -->
 			</div><!-- /container -->
 			<nav class="outer-nav bottom horizontal">
-				<a href="#" class='active'><i class="glyphicon glyphicon-home"></i>Home</a>
-				<a href="travel.html"><i class="fa fa-plane"></i>Travel</a>
-				<a href="#"><i class="fa fa-keyboard-o"></i>Blog</a>
+				<a href="index.html"><i class="glyphicon glyphicon-home"></i>Home</a>
+				<a href="travel.html" class='active'><i class="fa fa-plane"></i>Travel</a>
+				<a href="blog.html"><i class="fa fa-keyboard-o"></i>Blog</a>
 				<a href="#"><i class='fa fa-trophy'></i>Challenges</a>
 				<a href="https://org.salsalabs.com/o/2155/p/salsa/web/common/public/content?content_item_KEY=6480" target="_blank">Donate to the Clean Water Fund</a>
 			</nav>
